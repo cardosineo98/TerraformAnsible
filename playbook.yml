@@ -7,31 +7,6 @@
         state: restarted
       become: yes
   tasks:
-<<<<<<< HEAD
-  - name: Instalando o python3, vertualenv
-    apt: 
-     pkg:
-      - python3
-      - virtualenv
-     update_cache: yes
-    become: yes
-  - name: Instalando Dependencias PIP (Django e DJango rest)
-    pip: 
-     virtualenv: /home/ubuntu/tcc/venv
-     name:
-      - django
-      - djangorestframework
-  - name: Iniciando Projeto
-    shell: '. /home/ubuntu/tcc/venv/bin/activate; django-admin startproject setup /home/ubuntu/tcc/'
-  
-  - name: Alterando Host do settings
-    lineinfile:
-     path: /home/ubuntu/tcc/setup/settings.py
-     regexp: '^ALLOWED_HOSTS ='
-     line: "ALLOWED_HOSTS = ['*']"
-     backrefs: yes
-      
-=======
     - name: Install dependencys
       ansible.builtin.apt:
         pkg:
@@ -73,4 +48,3 @@
       notify:
         - restart apache
         
->>>>>>> 1018f22 (Instalacao servidor wordpress 1 etapa)
