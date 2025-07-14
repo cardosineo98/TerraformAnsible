@@ -20,6 +20,6 @@ resource "aws_instance" "app_server" {
   key_name      = "terraform-acesso-wsl"
 
   tags = {
-    Name = "Teste AWS"
+    Name = "Terraform Ansible Course"
   }
 }

@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
     "ansible.python.interpreterPath": "/usr/bin/python3"
+=======
+    "ansible.python.interpreterPath": "/bin/python3"
+>>>>>>> 1018f22 (Instalacao servidor wordpress 1 etapa)
 }
