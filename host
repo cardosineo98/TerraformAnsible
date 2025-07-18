@@ -1,2 +1,2 @@
 [terraform-ansible]
-54.186.95.141 ansible_user=ubuntu ansible_ssh_private_key_file='/home/lucas/estudos/terraform estudos/terraform-acesso-wsl.pem'
+35.166.94.84 ansible_user=ubuntu ansible_ssh_private_key_file='/home/lucas/estudos/terraform estudos/acesso-aws.pem'

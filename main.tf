@@ -17,7 +17,7 @@ provider "aws" {
 resource "aws_instance" "app_server" {
   ami           = "ami-0ec1bf4a8f92e7bd1"
   instance_type = "t2.micro"
-  key_name      = "terraform-acesso-wsl"
+  key_name      = "acesso-aws"
 
   tags = {
     Name = "Terraform Ansible Course"
