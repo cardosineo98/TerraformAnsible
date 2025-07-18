@@ -14,4 +14,4 @@ terraform.rc
 *.tfstate.backup
 .terraform.lock.hcl
 terraform-acesso-wsl.pem
-acesso-linux.pem
+acesso-aws.pem
