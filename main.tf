@@ -14,7 +14,7 @@ provider "aws" {
   profile = "default"
 }
 
-resource "aws_instance" "app_server" {
+resource "aws_instance" "mysql" {
   ami           = "ami-0ec1bf4a8f92e7bd1"
   instance_type = "t2.micro"
   key_name      = "acesso-aws"
@@ -22,4 +22,16 @@ resource "aws_instance" "app_server" {
   tags = {
     Name = "Terraform Ansible Course"
   }
+  
+}
+
+resource "aws_instance" "wordpress" {
+  ami           = "ami-0ec1bf4a8f92e7bd1"
+  instance_type = "t2.micro"
+  key_name      = "acesso-aws"
+
+  tags = {
+    Name = "Terraform Ansible Course"
+  }
+  
 }

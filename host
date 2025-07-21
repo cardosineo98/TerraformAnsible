@@ -1,2 +1,5 @@
-[terraform-ansible]
-35.166.94.84 ansible_user=ubuntu ansible_ssh_private_key_file='/home/lucas/estudos/terraform estudos/acesso-aws.pem'
+[wordpress]
+44.251.149.62 ansible_user=ubuntu ansible_ssh_private_key_file='/home/lucas/estudos/terraform estudos/acesso-aws.pem'
+
+[mysql]
+54.184.233.103 ansible_user=ubuntu ansible_ssh_private_key_file='/home/lucas/estudos/terraform estudos/acesso-aws.pem'
